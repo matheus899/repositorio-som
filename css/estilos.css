@@ -2,13 +2,13 @@
   --cinza: #aaa;
   --vermelha: #000000;
   --vermelha-escura: #af303f;
-  --branca: #beb7b7;
-  --luz: rgb(255, 0, 255);
+  --branca: #5a5a5a;
+  --luz: rgb(51, 255, 0);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #0ec7ce 0%,#23538a 100%);
+  background: linear-gradient(45deg, #0cec2a 0%,#000000 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
