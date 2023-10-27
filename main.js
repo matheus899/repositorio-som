@@ -13,6 +13,8 @@ listaDeTecals [0].onlick = tocaSomPom;
 
 let contador = 0;
 while (contador <9){
-      listadeteclados[0]. olick = tocasomkiko
+      listadeteclados[contador]. olick = tocasomkiko
+      contador = contador + 1;
+      console.log(contador);
 
 }
