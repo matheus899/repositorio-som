@@ -1,8 +1,8 @@
 
 
-//Declaração/criação da função tocaSomuepa
-function tocaSomuepa(){
-    document.queryselector ('#som_tecla_uepa').play
+//Declaração/criação da função tocaSom
+function tocaSom(idElementoAudio){
+    document.queryselector (idElementoAudio).play();
 
 }
 
@@ -12,8 +12,12 @@ const listaDeTeclas = document.querySelectorAll('.tecla');
 listaDeTecals [0].onlick = tocaSomPom;
 
 let contador = 0;
-while (contador <9){
-      listadeteclados[contador]. olick = tocasomkiko
+while(contador < listaDeTecals.length){
+   const efeito= listaDeTecals[contador] . classList[1];
+   const idAudio= "#som_" + efeito;
+      listadeteclados[contador]. olick = function() {
+        tocasom(idAudio);
+      }
       contador = contador + 1;
       console.log(contador);
 
