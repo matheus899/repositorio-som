@@ -8,14 +8,13 @@ function tocaSom(idElementoAudio){
 
 //criando a referências constante listaDeTeclas e busando a classe coletiva .tecla
 const listaDeTeclas = document.querySelectorAll('.tecla');
-//chamando a constante listaDeTeclas e o índice "0" do somPom
-listaDeTecals [0].onlick = tocaSomPom;
+
 
 let contador = 0;
-while(contador < listaDeTecals.length){
-   const efeito= listaDeTecals[contador] . classList[1];
+while(contador < listaDeTeclas.length){
+   const efeito= listaDeTeclas[contador] . classList[1];
    const idAudio= "#som_" + efeito;
-      listadeteclados[contador]. olick = function() {
+      listadeTeclas[contador]. onclick = function() {
         tocasom(idAudio);
       }
       contador = contador + 1;
