@@ -1,5 +1,5 @@
 //Declaração/criação da função tocaSom
-function tocaSom (idElementoAudio){
+function TeclaSom (idElementoAudio){
   document.querySelector(idElementoAudio).play();
 }
 
@@ -11,7 +11,7 @@ while(contador < listaDeTeclas.length){
   const efeito = listaDeTeclas[contador].classList[1];
   const idAudio = "#som_" + efeito;
   listaDeTeclas[contador].onclick = function(){
-    tocasom(idAudio);
+    Teclasom(idAudio);
   }
   contador = contador + 1;
   console.log(contador);
