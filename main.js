@@ -14,3 +14,4 @@ while(contador < listaDeTeclas.length){
   }
   contador = contador + 1;
   console.log(contador);
+}
